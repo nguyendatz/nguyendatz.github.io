@@ -3,26 +3,28 @@ INPUT {
 }
 #title {
 FONT-WEIGHT: 900; FONT-SIZE: 32pt;FONT-FAMILY:UVF Snap ITC;
+src: url("./font/uvfsnap.ttf");
 color: #eeeeee;
 text-shadow: black 0.2em 0.2em 0.4em;
 	}
 	
 #content{
 FONT-SIZE: 18pt;FONT-FAMILY:BrushScript BoldItalic;
+src: url("./font/brushscript.ttf");
 line-height:30px;
-
 }
 
 #nav {
-	FONT-WEIGHT: 900; FONT-SIZE: 17pt;FONT-FAMILY:UVF Snap ITC;
-    line-height:50px;
-    background-color:#eeeeee;
-    height: 100%;
-    width: 20%;
-    float: right;
-	text-align: left;
-	padding: 2%;
-	}
+FONT-WEIGHT: 900; FONT-SIZE: 17pt;FONT-FAMILY:UVF Snap ITC;
+src: url("./font/uvfsnap.ttf");	
+line-height:50px;
+background-color:#eeeeee;
+height: 100%;
+width: 20%;
+float: right;
+text-align: left;
+padding: 2%;
+}
 	
 body {
     background-image: url("./img/stone.jpg");
